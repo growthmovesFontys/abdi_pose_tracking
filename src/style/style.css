@@ -1,0 +1,9 @@
+.container {
+    position: relative;
+  }
+  .input_video {
+    position: absolute;
+  }
+  .output_canvas {
+    position: absolute;
+  }
