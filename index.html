@@ -3,12 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="src/style/style.css">
+  <script src="dist/bundle.js" defer></script> 
 </head>
 <body>
-    <div class="container">
-      <video class="input_video" autoplay></video>
-      <canvas class="output_canvas" width="1280px" height="720px"></canvas>
+  <body>
+    <div id="threejsContainer" class="container">
+    
     </div>
-    <script src="dist/bundle.js"></script> 
+    <div id="videoContainer" class="container">
+      <video class="input_video" autoplay></video>
+      <canvas id="canvasElement" class="output_canvas"></canvas>
+
+    </div>
+
   </body>
 </html>

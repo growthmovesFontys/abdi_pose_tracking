@@ -1,9 +1,27 @@
-.container {
-    position: relative;
-  }
-  .input_video {
-    position: absolute;
-  }
-  .output_canvas {
-    position: absolute;
-  }
+body {
+  margin: 0;
+  display: flex;
+  justify-content: flex-start; /* Start from the left side */
+  align-items: stretch; /* Stretch to fill the height */
+  height: 100vh;
+  overflow: hidden; /* Prevent scrolling */
+}
+
+#videoContainer {
+  width: 50%; /* Half the width of the screen */
+  height: 100%; /* Full height of the viewport */
+  position: relative; /* Positioning context for the canvas */
+  background: black; /* Optional: in case the canvas is transparent */
+}
+
+.input_video {
+  display: none; /* The video element itself is not displayed */
+}
+
+#canvasElement {
+  width: 100%; /* Fill the width of its container */
+  height: 100%; /* Fill the height of its container */
+  position: absolute; /* Positioned within videoContainer */
+  top: 0;
+  left: 0;
+}
