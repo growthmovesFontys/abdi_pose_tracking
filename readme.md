@@ -108,6 +108,6 @@ You can find example code snippets in the Typescript file (main.ts) that demonst
 
 
 ## Credits
-This project is created by [Your Name] and is open-source under the MIT License. Contributions and feedback are welcome!
+This project is created by Abdi and is open-source under the MIT License. Contributions and feedback are welcome!
 
 Happy coding!
